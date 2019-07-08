@@ -1,0 +1,22 @@
+{
+  "name": "dayone-to-standard-notes",
+  "version": "1.0.0",
+  "description": "Convert a DayOne journal export to a Standard Notes export",
+  "main": "./src/convert.ts",
+  "scripts": {
+    "watch-example": "ts-node-dev --respawn --transpileOnly ./src/convert.ts ../example/day-one-export.json",
+    "tsc": "tsc",
+    "start": "tsc && node ./build/convert.js"
+  },
+  "author": "Anis Jonischkeit",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.12",
+    "@types/uuid": "^3.4.5",
+    "typescript": "^3.5.2",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.40"
+  }
+}

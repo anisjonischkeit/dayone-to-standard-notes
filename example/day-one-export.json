@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "version": "1.0"
+  },
+  "entries": [
+    {
+      "creationDevice": "My MacBook",
+      "uuid": "SOMEUUID",
+      "modifiedDate": "2019-04-09T19:20:11Z",
+      "starred": false,
+      "creationOSVersion": "10.14",
+      "text": "Some title\nfollowed by some text",
+      "timeZone": "Europe/Berlin",
+      "creationDeviceType": "MacBook Pro",
+      "creationDate": "2019-04-09T18:07:23Z",
+      "duration": 0,
+      "creationOSName": "macOS"
+    },
+    {
+      "creationOSName": "macOS",
+      "timeZone": "Europe/Madrid",
+      "creationOSVersion": "10.14",
+      "modifiedDate": "2019-05-05T01:29:13Z",
+      "creationDevice": "My MacBook (512)",
+      "text": "Some other title\nfollowed by some other text",
+      "uuid": "SOMEUUID",
+      "duration": 0,
+      "location": {
+        "region": {
+          "center": {
+            "longitude": 0,
+            "latitude": 0
+          },
+          "radius": 75
+        },
+        "localityName": "Madrid",
+        "country": "Spain",
+        "longitude": 0,
+        "administrativeArea": "Madrid",
+        "placeName": "Some street",
+        "latitude": 0
+      },
+      "starred": false,
+      "creationDeviceType": "MacBook Pro",
+      "creationDate": "2019-05-03T16:20:47Z"
+    }
+  ]
+}
